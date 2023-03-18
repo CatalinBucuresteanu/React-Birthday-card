@@ -1,0 +1,31 @@
+body{
+  background-color: palevioletred;
+}
+.container{
+  background-color: white;
+  width: 500px;
+  height: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -400px 0 0 -250px;
+}
+
+button{
+  padding-left: 15px;
+  background-color: pink;
+  width: 450px;
+  height: 50px;
+  cursor: pointer;
+}
+.buton{
+  margin-top: 50px;
+  text-align: center;
+}
+img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: var(--light-shadow);
+}
